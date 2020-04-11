@@ -1,0 +1,240 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  background-color: #1f202b;
+  color: #ffffff;
+}
+
+/***** GRIDS *****/
+
+.full {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half {
+  /*width: 700px;*/
+  width: 50%;
+  float: left;
+}
+
+.third {
+  /*width: 466px;*/
+  width: 33%;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 800px;
+
+}
+
+header #top .full {
+  height: 75px;
+  position: fixed;
+  background-color: #1f202b;
+  top: 0;
+}
+
+header #top h2 a {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #ffffff;
+  }
+
+header #top h2 a:hover {
+  color: #f70074;
+}
+
+header #top nav {
+  float: right;
+  padding: 0 35px 20px 0;
+}
+
+header #top nav ul li {
+  display: inline-block;
+}
+header #top nav ul li a {
+  color: #ffffff;
+  padding-left: 50px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+header #top nav ul li a:hover {
+  color: #f70074;
+}
+/*if there is a different page*/
+header #top nav ul li a:active {
+  color: #2a4bb6;
+}
+header #top-two {
+  /*bottom part is 725px*/
+  height: 725px;
+  background: url('../img/hero-background.png');
+  background-size: cover;
+}
+
+header #top-two h1 {
+  font-size: 72px;
+  font-family: 'Source Code Pro', monospace;
+  text-transform: lowercase;
+  padding: 260px 0 0 100px;
+}
+
+header #top-two h1 span {
+  /*anything in this span should be colored pink #f70074*/
+  color: #f70074;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+  /*estimated height of section from design comp. Change as needed*/
+  height: 1650px;
+}
+
+#portfolio h2 {
+  color: #f70074;
+  font-size: 36px;
+  font-family: 'Source Code Pro', monospace;
+  /*text is centered*/
+  text-align: center;
+  /*text is lowercase*/
+  text-transform: lowercase;
+  /*50px padding on top*/
+  /*bottom margin 115*/
+  padding: 70px 0 95px 0;
+}
+
+#portfolio .half {
+  /*the padding on the left should be 100px*/
+  /*inner distance is only 80px. how should this be spaced?*/
+  padding-bottom: 100px;
+}
+
+/*title of project*/
+#portfolio .half h3 {
+/*font family and weight is montserrat bold*/
+  font-weight: 700;
+}
+
+/*project type*/
+#portfolio .half h3 span {
+/*font family and weight is montserrat regular*/
+  font-weight: 400;
+}
+
+/*attempt to center full content
+#portfolio .full {
+  margin-left: 50px;
+  margin-right: 50px;
+}*/
+
+/*Attempt to make even margins on portfolio half text and pics*/
+/*.half .right-align {
+  text-align: right;
+  margin-left: 30px
+}*/
+
+#portfolio .half p, h3 {
+  padding: 0 60px 0 90px;
+}
+
+#portfolio img {
+  padding: 0 50px 0 100px;
+}
+
+.righted {
+  text-align: right;
+}
+
+/***** ABOUT *****/
+
+#about {
+  height: 550px;
+  background: url('../img/about-me.png');
+  background-size: cover;
+}
+
+#about h2 {
+    /*the heading is colored pink #f70074*/
+    color: #f70074;
+    /*font size 36px*/
+    font-size: 36px;
+    /*font family is source code pro font-family: 'Source Code Pro', monospace;*/
+    font-family: 'Source Code Pro', monospace;
+    /*text is centered*/
+    text-align: center;
+    /*text is lowercase*/
+    text-transform: lowercase;
+    /*50px padding on top*/
+    /*bottom margin 115*/
+    padding: 20px 0 20px 0;
+}
+#about h3 {
+  color: #1f202b;
+  font-weight: 700;
+  padding-left: 100px;
+}
+#about p {
+  color: #1f202b;
+  padding-left: 100px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  height: 450px;
+}
+
+#contact h2 {
+  /*the heading is colored pink #f70074*/
+  color: #f70074;
+  /*font size 36px*/
+  font-size: 36px;
+  /*font family is source code pro font-family: 'Source Code Pro', monospace;*/
+  font-family: 'Source Code Pro', monospace;
+  /*text is centered*/
+  text-align: center;
+  /*text is lowercase*/
+  text-transform: lowercase;
+}
+
+#contact h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+footer #contact #centered {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#contact a img {
+  padding-left: 70px;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact .lastLine {
+  padding-top: 160px;
+  font-size: 18px;
+}
